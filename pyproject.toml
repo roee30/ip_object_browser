@@ -1,8 +1,26 @@
 [tool.poetry]
 name = "ip_object_browser"
-version = "0.1.0"
+version = "0.2.0"
 description = ""
 authors = ["Roee Nizan <roeen30@gmail.com>"]
+readme = "README.md"
+description = "Browse big nested data structures in ipython with keyboard"
+license = "MIT"
+homepage = "https://github.com/roee30/ip_object_browser"
+repository = "https://github.com/roee30/ip_object_browser"
+keywords = ["urwid", "json", "tui", "ipython"]
+readme = "README.md"
+include = [
+    "LICENSE"
+]
+classifiers = [
+    "Operating System :: OS Independent",
+    "Environment :: Console",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+]
 
 [tool.poetry.dependencies]
 python = "^3.7"
