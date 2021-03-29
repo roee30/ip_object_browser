@@ -8,6 +8,10 @@ In IPython, press `<C-T>` to browse the last output object (`_`).
 
 Use vi-like `hjkl` or arrow keys to navigate. 
 
+Press `/` to begin a textual search.
+Confirm with enter.
+Jump to next occurrence with `n`.
+
 Press `<C-C>` or `q` to exit.
 
 ### Usage from code
@@ -32,7 +36,8 @@ Based on the [urwid](https://github.com/urwid/urwid) library,
 adapted from the [treesample example](https://github.com/urwid/urwid/blob/master/examples/treesample.py).
 
 ## TODO
-- [ ] textual search functionality
-- [ ] status line with current path in object
+- [x] textual search functionality
+    - [ ] fix jump to previous (`N`)
+- [x] status line with current path in object
 - [ ] path-based navigation
-- [ ] output current path on exit
+- [x] output current path on exit

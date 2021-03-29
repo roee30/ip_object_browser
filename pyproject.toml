@@ -1,9 +1,7 @@
 [tool.poetry]
 name = "ip_object_browser"
-version = "0.2.0"
-description = ""
+version = "0.3.0"
 authors = ["Roee Nizan <roeen30@gmail.com>"]
-readme = "README.md"
 description = "Browse big nested data structures in ipython with keyboard"
 license = "MIT"
 homepage = "https://github.com/roee30/ip_object_browser"
